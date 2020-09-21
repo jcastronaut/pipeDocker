@@ -1,0 +1,6 @@
+version: '3'
+services:
+ t4:
+  environment:
+    - DEBUG=Test
+  build: .
